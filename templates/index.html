@@ -254,8 +254,32 @@ Prediction Result
 </div>
 
 {% endif %}
+</div>
+{% if recommendations %}
+
+<div class="recommendation-card">
+
+    <h2>
+        <i class="fa-solid fa-lightbulb"></i>
+        Recommendations
+    </h2>
+
+    <ul>
+
+        {% for recommendation in recommendations %}
+
+        <li>
+            <i class="fa-solid fa-circle-check"></i>
+            {{ recommendation }}
+        </li>
+
+        {% endfor %}
+
+    </ul>
 
 </div>
+
+{% endif %}
 
 </section>
 <!--================ ABOUT SECTION ================-->

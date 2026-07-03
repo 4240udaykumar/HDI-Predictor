@@ -1336,3 +1336,64 @@ nav ul{
 }
 
 }
+/* ==========================================
+   RECOMMENDATION CARD
+========================================== */
+
+.recommendation-card{
+
+    margin-top:30px;
+
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(20px);
+
+    border-radius:18px;
+
+    padding:25px;
+
+    animation:fadeIn .6s ease;
+
+}
+
+.recommendation-card h2{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+    color:#00ffd5;
+
+}
+
+.recommendation-card ul{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.recommendation-card li{
+
+    background:rgba(255,255,255,.08);
+
+    padding:14px 18px;
+
+    margin-bottom:12px;
+
+    border-radius:12px;
+
+    line-height:1.7;
+
+    font-size:16px;
+
+}
+
+.recommendation-card li i{
+
+    color:#2ecc71;
+
+    margin-right:10px;
+
+}
